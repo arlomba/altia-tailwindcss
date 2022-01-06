@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-maquetas-web-zenva",
+  "version": "1.0.0",
+  "description": "Completa el ejercicio para los tres tamaños posibles de dispositivos. Os recomiendo poner el atributo **class** en todos los elementos HTML relevantes siguiendo la [metodología BEM](https://www.youtube.com/watch?v=YaAkV--25fg).\r Intenta conseguir, para todos los tamaños de anchura de viewport del dispositivo, el diseño más aproximado posible a las capturas de pantalla y [vídeo explicativo](https://oscarm.tinytake.com/tt/NDEyODkwOF8xMjcxMjcwMg).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Formate-con-Altia/ejercicio-maquetas-web-zenva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Formate-con-Altia/ejercicio-maquetas-web-zenva/issues"
+  },
+  "homepage": "https://github.com/Formate-con-Altia/ejercicio-maquetas-web-zenva#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS: Card example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <main class="max-w-lg mx-auto my-6">
+      <section class="mx-6">
+        <!-- Card component -->
+        <article class="flex flex-col shadow rounded sm:p-4">
+          <header class="flex flex-col sm:flex-row">
+            <img
+              class="rounded-t sm:w-20 sm:h-20 sm:rounded-full"
+              alt="Avatar"
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&h=256&q=80"
+            />
+
+            <div class="flex flex-col justify-center mt-2 ml-4 sm:mt-0">
+              <h3 class="text-xl font-semibold">Catie Gelder</h3>
+              <h4 class="text-xs tracking-wide text-gray-700">
+                Frontend Engineer, Contoso
+              </h4>
+            </div>
+          </header>
+
+          <footer class="p-4 pt-2 sm:mt-2 sm:p-0">
+            <p class="font-sm italic">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              eligendi quod, officia esse molestias rem voluptate cumque unde
+              qui sapiente dolor quaerat illum nobis, similique facilis nesciunt
+              labore ut numquam."
+            </p>
+          </footer>
+        </article>
+        <!-- Card component -->
+
+        <div class="my-6"></div>
+
+        <!-- Card component -->
+        <article class="flex flex-col shadow rounded sm:p-4 dark:bg-gray-800">
+          <header class="flex flex-col sm:flex-row">
+            <img
+              class="rounded-t sm:w-20 sm:h-20 sm:rounded-full"
+              alt="Avatar"
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&h=256&q=80"
+            />
+
+            <div class="flex flex-col justify-center mt-2 ml-4 sm:mt-0">
+              <h3 class="text-xl font-semibold dark:text-cyan-400">
+                Catie Gelder
+              </h3>
+              <h4
+                class="text-xs tracking-wide text-gray-700 dark:text-gray-400"
+              >
+                Frontend Engineer, Contoso
+              </h4>
+            </div>
+          </header>
+
+          <footer class="p-4 pt-2 sm:mt-2 sm:p-0">
+            <p class="font-sm italic dark:text-gray-300">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              eligendi quod, officia esse molestias rem voluptate cumque unde
+              qui sapiente dolor quaerat illum nobis, similique facilis nesciunt
+              labore ut numquam."
+            </p>
+          </footer>
+        </article>
+        <!-- Card component -->
+      </section>
+    </main>
+  </body>
+</html>
